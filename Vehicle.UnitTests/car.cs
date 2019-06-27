@@ -32,7 +32,7 @@ namespace Vehicle.UnitTests
             // TODO: act
             // TODO: assert
         }
-
+        
         [Theory]
         [InlineData(4, 4)]
         // TODO: More data to be added
@@ -52,5 +52,6 @@ namespace Vehicle.UnitTests
             // assert
             Assert.Equal(expectedPetrolLitresConsumed, subject.PetrolLitresConsumed);
         }
+       
     }
 }
